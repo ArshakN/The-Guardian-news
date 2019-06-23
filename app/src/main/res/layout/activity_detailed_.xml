@@ -1,0 +1,40 @@
+<LinearLayout
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/cardview_shadow_end_color"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Detailed_Activity">
+
+    <TextView
+        android:transitionName="title_trans"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"
+        android:text="SPORT"
+        android:id="@+id/detailed_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:transitionName="image_trans"
+        android:id="@+id/detailed_image"
+        android:layout_width="395dp"
+        android:layout_height="250dp"
+
+        />
+
+    <TextView
+        android:transitionName="text_trans"
+        android:layout_gravity="center_horizontal"
+        android:text="SPORT"
+        android:id="@+id/detailed_newsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+
+</LinearLayout>
